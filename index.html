@@ -21,7 +21,7 @@
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
         color: white;
         text-align: center;
-        font-size: 50px;
+        font-size: 3rem;
         background-color: rgba(0, 0, 0, 0.5);
         padding: 20px;
         margin: 0%;
@@ -31,7 +31,7 @@
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
         text-align: center;
         font-family: sans-serif;
-        font-size: 20px;
+        font-size: 1.2rem;
     }
     .galeria{
         display: flex;
@@ -45,19 +45,24 @@
     }
 
     .item img{
-      width: 45%;       
+      width: 100%;       
       height: auto;
       border-radius: 8px;
     }
 
-    .video video{
+    .video{
+        text-align: center;
+        flex: 1 1 300px;
+        max-width: 400px;
+    }
+
+    .video iframe{
         width: 100%;
-        max-width: 300px;
-        height: auto;
+        max-width: 400px;
+        aspect-ratio: 9/16;
         margin: 0 auto;
         display: block;
-        gap: 20px;
-        
+        border-radius: 8px;      
     }
 </style>
 </head>
@@ -78,29 +83,34 @@
     <div class="item">
         <p>Ele só quer saber de dormir</p>
         <img src="Imagens/sonecas.jpg" alt="dormi1">
-        <img src="Imagens/sonecas2.jpg" alt="dormir2">
+        <!--<img src="Imagens/sonecas2.jpg" alt="dormir2">-->
     </div>
 
     <div class="video">
         <p>Fã de Harry Potter</p>
-        <iframe src="https://drive.google.com/file/d/1s38gfPq1o7d8rUfg8q8Bn9jjFDFbas4B/preview"
-        width="640" height="480"></iframe>
+        <iframe src="https://drive.google.com/file/d/1s38gfPq1o7d8rUfg8q8Bn9jjFDFbas4B/preview"></iframe>
     </div>
 
     <div class="video">
         <p>Gosta de abraçar</p>
-        <iframe src="https://drive.google.com/file/d/13OVOU9gmJoE8canYb8T8-J4v3r0AfG2o/preview"
-         width="640" height="480"></iframe>
+        <iframe src="https://drive.google.com/file/d/13OVOU9gmJoE8canYb8T8-J4v3r0AfG2o/preview"></iframe>
     </div>
 
     <div class="video">
         <p>Gosta de tomar um sol</p>
-        <iframe src="https://drive.google.com/file/d/1MqoYqOfOF-haxFoAwE_2SBACXOxim_aN/preview" 
-        width="640" height="480"></iframe>
+        <iframe src="https://drive.google.com/file/d/1MqoYqOfOF-haxFoAwE_2SBACXOxim_aN/preview" ></iframe>
 </iframe>
 
     </div>
 
+
+
+
+
+
+</div> 
+</body>
+</html>
 
 
 
